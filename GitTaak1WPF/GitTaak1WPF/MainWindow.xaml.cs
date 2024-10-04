@@ -24,5 +24,53 @@ namespace GitTaak1WPF
         {
             InitializeComponent();
         }
+
+        private void redImg_MouseEnter(object sender, MouseEventArgs e)
+        {
+            SolidColorBrush redColor = new SolidColorBrush(Color.FromRgb(255, 0, 0));
+            programWindow.Background = redColor;
+        }
+
+        private void redImg_MouseLeave(object sender, MouseEventArgs e)
+        {
+            SolidColorBrush defaultColor = new SolidColorBrush(Color.FromRgb(191, 191, 191));
+            programWindow.Background = defaultColor;
+        }
+
+        private void yellowImg_MouseEnter(object sender, MouseEventArgs e)
+        {
+            SolidColorBrush yellowColor = new SolidColorBrush(Color.FromRgb(255, 255, 0));
+            programWindow.Background = yellowColor;
+        }
+
+        private void yellowImg_MouseLeave(object sender, MouseEventArgs e)
+        {
+            SolidColorBrush defaultColor = new SolidColorBrush(Color.FromRgb(191, 191, 191));
+            programWindow.Background = defaultColor;
+        }
+
+        private void greenImg_MouseEnter(object sender, MouseEventArgs e)
+        {
+            SolidColorBrush greenColor = new SolidColorBrush(Color.FromRgb(0, 80, 0));
+            programWindow.Background = greenColor;
+        }
+
+        private void greenImg_MouseLeave(object sender, MouseEventArgs e)
+        {
+            SolidColorBrush defaultColor = new SolidColorBrush(Color.FromRgb(191, 191, 191));
+            programWindow.Background = defaultColor;
+        }
+
+        private void blueImg_MouseEnter(object sender, MouseEventArgs e)
+        {
+            SolidColorBrush blueColor = new SolidColorBrush(Color.FromRgb(0, 0, 255));
+            programWindow.Background = blueColor;
+        }
+
+        private void blueImg_MouseLeave(object sender, MouseEventArgs e)
+        {
+            SolidColorBrush defaultColor = new SolidColorBrush(Color.FromRgb(191, 191, 191));
+            programWindow.Background = defaultColor;
+        }
     }
 }

@@ -6,9 +6,13 @@
         xmlns:local="clr-namespace:GitTaak1WPF"
         mc:Ignorable="d"
         Title="Kleurenpsychologie" Height="450" Width="800">
-    <Grid Background="#FFBFBFBF">
-        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Margin="0,30,0,0" FontSize="16" FontWeight="Bold"/>
+    <Grid Name="programWindow" Background="#FFBFBFBF">
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Kleurenpsychologie" VerticalAlignment="Top" Margin="40,30,0,0" FontSize="16" FontWeight="Bold"/>
         <Image Source="/assets/PXL.png" Margin="680,10,0,327" Width="100" />
+        <Image x:Name="redImg" Source="/assets/Rood.png" Width="125" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,80,0,0" MouseEnter="redImg_MouseEnter" MouseLeave="redImg_MouseLeave" />
+        <Image x:Name="yellowImg" Source="/assets/Geel.png" Width="125" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,80,0,0" MouseEnter="yellowImg_MouseEnter" MouseLeave="yellowImg_MouseLeave" />
+        <Image x:Name="greenImg" Source="/assets/Groen.png" Width="125" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="250,180,0,0" MouseEnter="greenImg_MouseEnter" MouseLeave="greenImg_MouseLeave" />
+        <Image x:Name="blueImg" Source="/assets/Blauw.png" Width="125" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="400,180,0,0" MouseEnter="blueImg_MouseEnter" MouseLeave="blueImg_MouseLeave" />
 
     </Grid>
 </Window>
