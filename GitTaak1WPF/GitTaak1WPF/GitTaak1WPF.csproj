@@ -90,9 +90,17 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\Blauw.png" />
+    <Resource Include="assets\Geel.png" />
+    <Resource Include="assets\Groen.png" />
+    <Resource Include="assets\PXL.png" />
+    <Resource Include="assets\Rood.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
