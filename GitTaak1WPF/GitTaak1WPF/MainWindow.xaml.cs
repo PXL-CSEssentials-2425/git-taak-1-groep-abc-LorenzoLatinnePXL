@@ -76,21 +76,25 @@ namespace GitTaak1WPF
         private void redImg_MouseDown(object sender, MouseButtonEventArgs e)
         {
             colorCode.Text = "#FF0000";
+            colorInformation.Text = "Rood is de kleur van warmte.";
         }
 
         private void yellowImg_MouseDown(object sender, MouseButtonEventArgs e)
         {
             colorCode.Text = "#FFFF00";
+            colorInformation.Text = "Geel is de kleur van levenslust.";
         }
 
         private void greenImg_MouseDown(object sender, MouseButtonEventArgs e)
         {
             colorCode.Text = "#008000";
+            colorInformation.Text = "Groen is de kleur van genezing.";
         }
 
         private void blueImg_MouseDown(object sender, MouseButtonEventArgs e)
         {
             colorCode.Text = "#0000FF";
+            colorInformation.Text = "Blauw is de kleur van intelligentie.";
         }
     }
 }
