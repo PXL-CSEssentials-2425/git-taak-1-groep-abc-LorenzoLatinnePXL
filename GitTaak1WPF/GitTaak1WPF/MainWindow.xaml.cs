@@ -72,5 +72,25 @@ namespace GitTaak1WPF
             SolidColorBrush defaultColor = new SolidColorBrush(Color.FromRgb(191, 191, 191));
             programWindow.Background = defaultColor;
         }
+
+        private void redImg_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorCode.Text = "#FF0000";
+        }
+
+        private void yellowImg_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorCode.Text = "#FFFF00";
+        }
+
+        private void greenImg_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorCode.Text = "#008000";
+        }
+
+        private void blueImg_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            colorCode.Text = "#0000FF";
+        }
     }
 }
